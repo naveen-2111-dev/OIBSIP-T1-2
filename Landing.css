@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: rgb(49, 48, 48);
+    background-color: #ccc;
 }
 
 .navigation{
@@ -17,22 +17,114 @@ li {
     list-style: none;
     font-size: 1.3rem;
     margin-top: 18px;
-    padding: 3px;
+    padding: 3px 3px 3px 3px;
+    background-color: transparent;
 }
 
 li:hover{
-    background-color: grey;
+    box-shadow: 2px 2px 12px grey;
     border-radius: 10px;
+    padding: 0px 10px 0px 10px;
+    transition: 0.1s ease-in;
 }
 
 li a{
     text-decoration: none;
-    color: white;
+    color: black;
     text-transform: capitalize;
     font-weight: bolder;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.word{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6rem;
+    margin-bottom: 7rem;
+}
+
+.col1{
+    flex-basis: 50%;
+}
+
+.col2{
+    flex-basis: 35%;
+}
+
+.word h1{
+    font-size: 8rem;
+    text-transform: uppercase;
+    color: black;
+    margin:auto;
+    display: block;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+span{
+color: rgb(242, 4, 91);
+}
+
+.col1 p{
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-left: 200px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p span{
+    font-size: 2.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    color: white;
+    background-color: yellow;
+    border-radius: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: black;
+    box-shadow: 10px 15px 20px yellow ;
+}
+
+button{
+    padding: 1rem 2rem 1rem 2rem;
+    margin-right: 20px;
+    border-radius: 20px;
+    border: 2px solid grey;
+    background-color: transparent;
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+}
+
+button:hover{
+    transition: 0.5s;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
 
 
+.cont{
+    display: flex;
+}
 
+.col-1{
+    flex-basis: 25%;
+}
+
+.col-2{
+    flex-basis: 60%;
+}
+
+.cont h1{
+    font-size: 2em;
+    text-transform: uppercase;
+}
