@@ -393,3 +393,18 @@ h2{
   padding: 20px;
   font-size: 15px;
 }
+
+.arrow i{
+  padding: 20px;
+  border-radius: 80px;
+  text-align: center;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.arrow a{
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
