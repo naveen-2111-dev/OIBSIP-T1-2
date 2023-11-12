@@ -66,15 +66,15 @@
     <section id="colours">
       <div class="col-main">
         <div class="mainCol1">
-            <div class="red" onclick='Color()'></div>
-            <div class="black" onclick='Color()'></div>
-            <div class="aqua" onclick='Color()'></div>
-            <div class="white" onclick='Color()'></div>
+           <h1>colours</h1>
+            <div class="red" onclick='Color("source/thar-red-removebg-preview.png")'></div>
+            <div class="black" onclick='Color("source/tharblack.png")'></div>
+            <div class="aqua" onclick='Color("source/aqua.png")'></div>
+            <div class="white" onclick='Color("source/tharwhite-removebg-preview.png")'></div>
             <a href="#">see more! <i class="fa fa-gift"></i></a>
         </div>
         <div class="mainCol2">
-            <h1>colours</h1>
-            <img src="source/thar_aquamarine__1_-removebg-preview.png" alt="choose color!!!" id="thar">
+            <img src="source/tharblack.png" alt="choose color!!!" id="thar">
         </div>
       </div>
     </section>
@@ -104,7 +104,15 @@
       </div>
     </section>
 
-    <h2>copyrights reserved@2023 made on oasis intern</h2>
+    <h2>copyrights reserved@2023 made at oasis intern</h2>
 
+    <script>
+      let img = document.getElementById('thar');
+
+      function Color(e){
+        img.src = e;
+      }
+
+    </script>
   </body>
 </html>

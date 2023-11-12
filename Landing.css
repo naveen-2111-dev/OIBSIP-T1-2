@@ -255,6 +255,10 @@ button:hover {
   align-items: center;
 }
 
+.mainCol2 img{
+  width:50rem;
+}
+
 .red,
 .black,
 .aqua,
@@ -306,7 +310,7 @@ button:hover {
   padding-left: 15px;
 }
 
-.mainCol2 h1{
+.mainCol1 h1{
   font-size: 2em;
   text-transform: uppercase;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
